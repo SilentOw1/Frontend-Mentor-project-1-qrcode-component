@@ -22,7 +22,8 @@ p {
 #qrcode-container {
   background-color: #fff;
   border-radius: 10px;
-  width: 300px;
+  /* width: 300px; */
+  width: 320px;
   text-align: center;
   padding: 13px;
 }
