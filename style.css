@@ -21,9 +21,9 @@ p {
 
 #qrcode-container {
   background-color: #fff;
-  border-radius: 10px;
-  /* width: 300px; */
+  border-radius: 16px;
   width: 320px;
+  height: 497px;
   text-align: center;
   padding: 13px;
 }
@@ -31,7 +31,7 @@ p {
 .qrcode-img img {
   max-width: 100%; /* 設定最大寬度為容器寬度 */
   height: auto; /* 保持原始圖片的高寬比 */
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .qrcode-text {
