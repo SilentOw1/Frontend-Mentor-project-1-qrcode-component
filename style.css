@@ -22,10 +22,11 @@ p {
 #qrcode-container {
   background-color: #fff;
   border-radius: 16px;
-  width: 320px;
+  max-width: 300px;
   height: 497px;
   text-align: center;
   padding: 13px;
+  box-shadow: 0px 17px 25px 6px rgba(123, 135, 157, 0.1);
 }
 
 .qrcode-img img {
@@ -36,10 +37,4 @@ p {
 
 .qrcode-text {
   padding: 15px;
-}
-
-@media screen and (max-width: 600px) {
-  .qrcode-container {
-    min-width: 375px;
-  }
 }
